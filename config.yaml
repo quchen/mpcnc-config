@@ -1,5 +1,6 @@
 board: 6 Pack
-name: 6 Pack tmc_2130 XYZABC
+name: Davids MPCNC
+
 stepping:
     engine: I2S_STREAM
     idle_ms: 250
