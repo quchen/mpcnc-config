@@ -11,25 +11,25 @@ stepping:
 axes:
     shared_stepper_disable_pin: NO_PIN
     x:
-        steps_per_mm: 6.30
-        max_rate_mm_per_min: 3000.000
+        steps_per_mm: 1000
+        max_rate_mm_per_min: 5000.000
         acceleration_mm_per_sec2: 100.000
-        max_travel_mm: 300.000
-        soft_limits: false
-        # homing:
-        #   cycle: 2
-        #   positive_direction: false
-        #   mpos_mm: 0.000
-        #   feed_mm_per_min: 500.000
-        #   seek_mm_per_min: 1000.000
-        #   settle_ms: 500
-        #   seek_scaler: 1.100
-        #   feed_scaler: 1.100
+        max_travel_mm: 800.000
+        soft_limits: true
+        homing:
+          cycle: 2
+          positive_direction: false
+          mpos_mm: 0.000
+          feed_mm_per_min: 500.000
+          seek_mm_per_min: 1000.000
+          settle_ms: 100
+          seek_scaler: 1.100
+          feed_scaler: 1.100
 
         motor0:
             limit_neg_pin: NO_PIN
             limit_pos_pin: NO_PIN
-            limit_all_pin: NO_PIN
+            limit_all_pin: gpio.33
             hard_limits: false
             pulloff_mm: 1.000
             tmc_2130:
@@ -46,7 +46,7 @@ axes:
                 run_amps:     0.750
                 hold_amps:    0.750
 
-                microsteps: 4
+                microsteps: 64
 
                 stallguard: 0
                 stallguard_debug: false
@@ -60,7 +60,7 @@ axes:
         motor1:
             limit_neg_pin: NO_PIN
             limit_pos_pin: NO_PIN
-            limit_all_pin: NO_PIN
+            limit_all_pin: gpio.32
             hard_limits: false
             pulloff_mm: 1.000
             tmc_2130:
@@ -77,7 +77,7 @@ axes:
                 run_amps:     0.750
                 hold_amps:    0.750
 
-                microsteps: 4
+                microsteps: 64
 
                 stallguard: 0
                 stallguard_debug: false
@@ -89,8 +89,8 @@ axes:
                 use_enable: false
 
     y:
-        steps_per_mm: 6.30
-        max_rate_mm_per_min: 3000.000
+        steps_per_mm: 1000
+        max_rate_mm_per_min: 5000.000
         acceleration_mm_per_sec2: 100.000
         max_travel_mm: 300.000
         soft_limits: false
@@ -124,7 +124,7 @@ axes:
                 run_amps:     0.750
                 hold_amps:    0.750
 
-                microsteps: 4
+                microsteps: 64
 
                 stallguard: 0
                 stallguard_debug: false
@@ -155,7 +155,7 @@ axes:
                 run_amps:     0.750
                 hold_amps:    0.750
 
-                microsteps: 4
+                microsteps: 64
 
                 stallguard: 0
                 stallguard_debug: false
@@ -167,8 +167,8 @@ axes:
                 use_enable: false
 
     z:
-        steps_per_mm: 14.27
-        max_rate_mm_per_min: 200.000
+        steps_per_mm: 1000
+        max_rate_mm_per_min: 5000.000
         acceleration_mm_per_sec2: 200.000
         max_travel_mm: 130.000
         soft_limits: false
@@ -202,7 +202,7 @@ axes:
                 run_amps:     0.750
                 hold_amps:    0.750
 
-                microsteps: 32
+                microsteps: 64
 
                 stallguard: 0
                 stallguard_debug: false
