@@ -69,7 +69,7 @@ axes:
                 # Note that the order varies between motor slots!
                 # See https://github.com/bdring/6-Pack_CNC_Controller/wiki/Setting-Up-Axis-Motors#assigning-io-pins-to-motors
                 disable_pin:   i2so.7
-                direction_pin: i2so.4
+                direction_pin: i2so.4:low
                 step_pin:      i2so.5
                 cs_pin:        i2so.6
 
@@ -116,7 +116,7 @@ axes:
                 # Note that the order varies between motor slots!
                 # See https://github.com/bdring/6-Pack_CNC_Controller/wiki/Setting-Up-Axis-Motors#assigning-io-pins-to-motors
                 disable_pin:   i2so.8
-                direction_pin: i2so.9
+                direction_pin: i2so.9:low
                 step_pin:      i2so.10
                 cs_pin:        i2so.11
 
@@ -194,7 +194,7 @@ axes:
                 # Note that the order varies between motor slots!
                 # See https://github.com/bdring/6-Pack_CNC_Controller/wiki/Setting-Up-Axis-Motors#assigning-io-pins-to-motors
                 disable_pin:   i2so.16
-                direction_pin: i2so.17
+                direction_pin: i2so.17:low
                 step_pin:      i2so.18
                 cs_pin:        i2so.19
 
