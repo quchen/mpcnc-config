@@ -167,7 +167,7 @@ axes:
                 use_enable: false
 
     z:
-        steps_per_mm: 575.000
+        steps_per_mm: 1590.000
         max_rate_mm_per_min: 3000.000
         acceleration_mm_per_sec2: 200.000
         max_travel_mm: 130.000
