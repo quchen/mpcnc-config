@@ -20,14 +20,14 @@ axes:
         soft_limits: true
 
         homing:
-          cycle: 2
-          positive_direction: false
-          mpos_mm: 0.000
-          feed_mm_per_min: 200.000
-          seek_mm_per_min: 2000.000
-          settle_ms: 100
-          seek_scaler: 1.100
-          feed_scaler: 1.100
+            cycle:              2
+            positive_direction: false
+            mpos_mm:            0.000
+            feed_mm_per_min:    200.000
+            seek_mm_per_min:    2000.000
+            settle_ms:          100
+            seek_scaler:        1.100
+            feed_scaler:        1.100
 
         motor0:
             limit_neg_pin: gpio.32
@@ -101,14 +101,14 @@ axes:
         soft_limits: true
 
         homing:
-          cycle: 3
-          positive_direction: false
-          mpos_mm: 0.000
-          feed_mm_per_min: 200.000
-          seek_mm_per_min: 2000.000
-          settle_ms: 500
-          seek_scaler: 1.100
-          feed_scaler: 1.100
+            cycle:              3
+            positive_direction: false
+            mpos_mm:            0.000
+            feed_mm_per_min:    200.000
+            seek_mm_per_min:    2000.000
+            settle_ms:          500
+            seek_scaler:        1.100
+            feed_scaler:        1.100
 
         motor0:
             limit_neg_pin: gpio.34
@@ -178,17 +178,17 @@ axes:
         acceleration_mm_per_sec2: 200.000
 
         max_travel_mm: 130.000
-        soft_limits: false
+        soft_limits: true
 
         # homing:
-        #   cycle: 1
-        #   positive_direction: false
-        #   mpos_mm: 150.000
-        #   feed_mm_per_min: 100.000
-        #   seek_mm_per_min: 200.000
-        #   settle_ms: 500
-        #   seek_scaler: 1.100
-        #   feed_scaler: 1.100
+        #     cycle:              1
+        #     positive_direction: false
+        #     mpos_mm:            150.000
+        #     feed_mm_per_min:    100.000
+        #     seek_mm_per_min:    200.000
+        #     settle_ms:          500
+        #     seek_scaler:        1.100
+        #     feed_scaler:        1.100
 
         motor0:
             limit_neg_pin: NO_PIN
