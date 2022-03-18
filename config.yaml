@@ -22,9 +22,10 @@ axes:
         homing:
             cycle:              2
             positive_direction: false
+            # Machine pos after successful homing
             mpos_mm:            0.000
-            feed_mm_per_min:    200.000
             seek_mm_per_min:    2000.000
+            feed_mm_per_min:    200.000
             settle_ms:          100
             seek_scaler:        1.100
             feed_scaler:        1.100
@@ -33,8 +34,14 @@ axes:
             limit_neg_pin: gpio.32
             limit_pos_pin: NO_PIN
             limit_all_pin: NO_PIN
+
+            # Hard stop when hitting a switch outside of homing.
+            # Raises an alert and requires a firmware reset and rehoming.
             hard_limits: false
+            # Pull away from the switch this much when homing.
+            # Can be set per motor for misaligned switch positions.
             pulloff_mm: 5.000
+
             tmc_2130:
 
                 # Motor Socket #1 (Left End)
