@@ -110,7 +110,7 @@ axes:
         soft_limits: false
 
         homing:
-            cycle:              3
+            cycle:              2
             positive_direction: false
             mpos_mm:            0.000
             feed_mm_per_min:    200.000
