@@ -1,6 +1,8 @@
 board: 6 Pack
 name: Davids MPCNC
 
+verbose_errors: true
+
 stepping:
     engine: I2S_STREAM
     idle_ms: 250
