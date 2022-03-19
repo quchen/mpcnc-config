@@ -5,7 +5,9 @@ verbose_errors: true
 
 stepping:
     engine: I2S_STREAM
-    idle_ms: 250
+
+    # 0-255; 255 = dont disable motors after movement
+    idle_ms: 255
     pulse_us: 4
     dir_delay_us: 1
     disable_delay_us: 0
