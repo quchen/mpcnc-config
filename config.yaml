@@ -27,7 +27,7 @@ axes:
             positive_direction: false
             # Machine pos after successful homing
             mpos_mm:            0.000
-            seek_mm_per_min:    2000.000
+            seek_mm_per_min:    1500.000
             feed_mm_per_min:    200.000
             settle_ms:          100
             seek_scaler:        1.100
@@ -114,7 +114,7 @@ axes:
             positive_direction: false
             mpos_mm:            0.000
             feed_mm_per_min:    200.000
-            seek_mm_per_min:    2000.000
+            seek_mm_per_min:    1500.000
             settle_ms:          500
             seek_scaler:        1.100
             feed_scaler:        1.100
