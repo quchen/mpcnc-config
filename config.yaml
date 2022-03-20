@@ -265,14 +265,14 @@ sdcard:
 # probe:
 #     pin: NO_PIN
 #     check_mode_start: true
-
-macros:
-    startup_line0:
-    startup_line1:
-    macro0:
-    macro1:
-    macro2:
-    macro3:
+#
+# macros:
+#     startup_line0:
+#     startup_line1:
+#     macro0:
+#     macro1:
+#     macro2:
+#     macro3:
 
 PWM:
     pwm_hz:          5000
