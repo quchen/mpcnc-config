@@ -19,9 +19,8 @@ axes:
         max_rate_mm_per_min:      8000.000
         acceleration_mm_per_sec2: 300.000
 
-        # TODO: Set the max travel right
-        max_travel_mm: 800.000
-        soft_limits: false
+        max_travel_mm: 741.00
+        soft_limits: true
 
         homing:
             cycle:              2
@@ -107,9 +106,8 @@ axes:
         max_rate_mm_per_min:      8000.000
         acceleration_mm_per_sec2: 300.000
 
-        # TODO: Set the max travel right
-        max_travel_mm: 450.000
-        soft_limits: false
+        max_travel_mm: 541.00
+        soft_limits: true
 
         homing:
             cycle:              2
