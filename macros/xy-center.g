@@ -1,3 +1,2 @@
-G0
-G90
-X370.5 Y270.5
+; Go to XY=center (in machine coordinates)
+G53 G0 X370.5 Y270.5
