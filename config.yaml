@@ -22,7 +22,7 @@ axes:
         max_rate_mm_per_min:      8000.000
         acceleration_mm_per_sec2: 300.000
 
-        max_travel_mm: 741.00
+        max_travel_mm: 750.00
         soft_limits: true
 
         homing:
@@ -109,7 +109,7 @@ axes:
         max_rate_mm_per_min:      8000.000
         acceleration_mm_per_sec2: 300.000
 
-        max_travel_mm: 541.00
+        max_travel_mm: 540.00
         soft_limits: true
 
         homing:
