@@ -18,7 +18,7 @@ stepping:
 axes:
     shared_stepper_disable_pin: NO_PIN
     x:
-        steps_per_mm:             401.4
+        steps_per_mm:             400.000
         max_rate_mm_per_min:      8000.000
         acceleration_mm_per_sec2: 300.000
 
@@ -105,7 +105,7 @@ axes:
                 use_enable: false
 
     y:
-        steps_per_mm:             401.4
+        steps_per_mm:             400.000
         max_rate_mm_per_min:      8000.000
         acceleration_mm_per_sec2: 300.000
 
