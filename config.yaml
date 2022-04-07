@@ -18,6 +18,11 @@ stepping:
 axes:
     shared_stepper_disable_pin: NO_PIN
     x:
+        # 200 steps/360°
+        # 64 microsteps/step
+        # 16 teeth/360°
+        # 2 mm/tooth
+        # ==> 200 * 64 / 16 / 2 = 400 steps/mm
         steps_per_mm:             400.000
         max_rate_mm_per_min:      12000.000
         acceleration_mm_per_sec2: 1200.000
@@ -105,6 +110,11 @@ axes:
                 use_enable: false
 
     y:
+        # 200 steps/360°
+        # 64 microsteps/step
+        # 16 teeth/360°
+        # 2 mm/tooth
+        # ==> 200 * 64 / 16 / 2 = 400 steps/mm
         steps_per_mm:             400.000
         max_rate_mm_per_min:      12000.000
         acceleration_mm_per_sec2: 1200.000
