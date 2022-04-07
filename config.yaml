@@ -185,9 +185,11 @@ axes:
                 use_enable: false
 
     z:
-        steps_per_mm:             1590.000
-        max_rate_mm_per_min:      2000.000
-        acceleration_mm_per_sec2: 200.000
+        # 200 steps/360°
+        # 64 microsteps/step
+        # 8 mm/360°
+        # ==> 200 * 64 / 8 = 1600 steps/mm
+        steps_per_mm:             1600.000
 
         max_travel_mm: 130.000
         soft_limits: false
