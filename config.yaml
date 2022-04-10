@@ -25,7 +25,7 @@ axes:
         # ==> 200 * 64 / 16 / 2 = 400 steps/mm
         steps_per_mm:             400.000
         max_rate_mm_per_min:      12000.000
-        acceleration_mm_per_sec2: 1200.000
+        acceleration_mm_per_sec2: 300.000
 
         max_travel_mm: 750.00
         soft_limits: true
@@ -117,7 +117,7 @@ axes:
         # ==> 200 * 64 / 16 / 2 = 400 steps/mm
         steps_per_mm:             400.000
         max_rate_mm_per_min:      12000.000
-        acceleration_mm_per_sec2: 1200.000
+        acceleration_mm_per_sec2: 300.000
 
         max_travel_mm: 540.00
         soft_limits: true
