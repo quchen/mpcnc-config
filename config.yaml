@@ -128,7 +128,7 @@ axes:
             mpos_mm:            0.000
             feed_mm_per_min:    200.000
             seek_mm_per_min:    1500.000
-            settle_ms:          500
+            settle_ms:          100
             seek_scaler:        1.100
             feed_scaler:        1.100
 
@@ -212,7 +212,7 @@ axes:
             mpos_mm:            0.000
             feed_mm_per_min:    200.000
             seek_mm_per_min:    1500.000
-            settle_ms:          500
+            settle_ms:          100
             seek_scaler:        1.100
             feed_scaler:        1.100
 
