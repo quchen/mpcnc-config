@@ -74,8 +74,8 @@ axes:
                 toff_disable: 0
                 toff_stealthchop: 5
                 toff_coolstep: 3
-                run_mode: StealthChop
-                homing_mode: StealthChop
+                run_mode: CoolStep
+                homing_mode: CoolStep
                 use_enable: false
 
         motor1:
@@ -105,8 +105,8 @@ axes:
                 toff_disable: 0
                 toff_stealthchop: 5
                 toff_coolstep: 3
-                run_mode: StealthChop
-                homing_mode: StealthChop
+                run_mode: CoolStep
+                homing_mode: CoolStep
                 use_enable: false
 
     y:
@@ -159,8 +159,8 @@ axes:
                 toff_disable: 0
                 toff_stealthchop: 5
                 toff_coolstep: 3
-                run_mode: StealthChop
-                homing_mode: StealthChop
+                run_mode: CoolStep
+                homing_mode: CoolStep
                 use_enable: false
 
         motor1:
@@ -190,8 +190,8 @@ axes:
                 toff_disable: 0
                 toff_stealthchop: 5
                 toff_coolstep: 3
-                run_mode: StealthChop
-                homing_mode: StealthChop
+                run_mode: CoolStep
+                homing_mode: CoolStep
                 use_enable: false
 
     z:
@@ -245,8 +245,8 @@ axes:
                 toff_disable: 0
                 toff_stealthchop: 5
                 toff_coolstep: 3
-                run_mode: StealthChop
-                homing_mode: StealthChop
+                run_mode: CoolStep
+                homing_mode: CoolStep
                 use_enable: false
 
 i2so:
