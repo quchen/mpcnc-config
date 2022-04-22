@@ -51,7 +51,7 @@ axes:
             hard_limits: false
             # Pull away from the switch this much when homing.
             # Can be set per motor for misaligned switch positions.
-            pulloff_mm: 5.000
+            pulloff_mm: 2.500
 
             tmc_2130:
 
@@ -83,7 +83,7 @@ axes:
             limit_pos_pin: NO_PIN
             limit_all_pin: NO_PIN
             hard_limits: false
-            pulloff_mm: 5.000
+            pulloff_mm: 2.500
             tmc_2130:
 
                 # Motor Socket #2
@@ -137,7 +137,7 @@ axes:
             limit_pos_pin: NO_PIN
             limit_all_pin: NO_PIN
             hard_limits: false
-            pulloff_mm: 5.000
+            pulloff_mm: 2.500
             tmc_2130:
 
                 # Motor Socket #3
@@ -168,7 +168,7 @@ axes:
             limit_pos_pin: NO_PIN
             limit_all_pin: NO_PIN
             hard_limits: false
-            pulloff_mm: 5.000
+            pulloff_mm: 2.500
             tmc_2130:
 
                 # Motor Socket #4
@@ -221,7 +221,7 @@ axes:
             limit_pos_pin: NO_PIN
             limit_all_pin: NO_PIN
             hard_limits: false
-            pulloff_mm: 5.000
+            pulloff_mm: 2.500
             tmc_2130:
 
                 # Motor Socket #5
