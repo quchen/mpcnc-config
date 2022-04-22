@@ -206,18 +206,18 @@ axes:
         max_travel_mm: 130.000
         soft_limits: false
 
-        # homing:
-        #     cycle:              1
-        #     positive_direction: false
-        #     mpos_mm:            150.000
-        #     feed_mm_per_min:    100.000
-        #     seek_mm_per_min:    200.000
-        #     settle_ms:          500
-        #     seek_scaler:        1.100
-        #     feed_scaler:        1.100
+        homing:
+            cycle:              1
+            positive_direction: true
+            mpos_mm:            0.000
+            feed_mm_per_min:    200.000
+            seek_mm_per_min:    1500.000
+            settle_ms:          500
+            seek_scaler:        1.100
+            feed_scaler:        1.100
 
         motor0:
-            limit_neg_pin: NO_PIN
+            limit_neg_pin: gpio.25
             limit_pos_pin: NO_PIN
             limit_all_pin: NO_PIN
             hard_limits: false
