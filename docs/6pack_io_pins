@@ -1,0 +1,49 @@
+// Socket #1
+// #1 GPIO_NUM_33 (Sg1)
+// #2 GPIO_NUM_32 (Sg2)
+// #3 GPIO_NUM_35 (Sg3) (input only)
+// #4 GPIO_NUM_34 (Sg4) (input only)
+// #5 GPIO_NUM_14
+// #6 GPIO_NUM_13
+// #7 GPIO_NUM_15
+// #8 GPIO_NUM_12
+
+// Socket #2
+// #1 GPIO_NUM_2
+// #2 GPIO_NUM_25
+// #3 GPIO_NUM_39 (Sg5) (input only)
+// #4 GPIO_NUM_36 (Sg6) (input only)
+// #5 GPIO_NUM_14
+// #6 GPIO_NUM_13
+// #7 GPIO_NUM_15
+// #8 GPIO_NUM_12
+
+// Socket #3
+// #1 GPIO_NUM_26
+// #2 GPIO_NUM_4
+// #3 GPIO_NUM_16
+// #4 GPIO_NUM_27
+// #5 GPIO_NUM_14
+// #6 GPIO_NUM_13
+// #7 GPIO_NUM_15
+// #8 GPIO_NUM_12
+
+// Socket #4
+// #1 GPIO_NUM_14
+// #2 GPIO_NUM_13
+// #3 GPIO_NUM_15
+// #4 GPIO_NUM_12
+// #5 GPIO_NUM_14
+// #6 GPIO_NUM_13
+// #7 GPIO_NUM_15
+// #8 GPIO_NUM_12
+
+// Socket #5
+// #1 I2SO(24)  (output only)
+// #2 I2SO(25)  (output only)
+// #3 I2SO26)  (output only)
+// #4 I2SO(27)  (output only)
+// #5 GPIO_NUM_14
+// #6 GPIO_NUM_13
+// #7 GPIO_NUM_15
+// #8 GPIO_NUM_12
