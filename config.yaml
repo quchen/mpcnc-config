@@ -249,6 +249,10 @@ axes:
                 homing_mode: StealthChop
                 use_enable: false
 
+probe:
+    pin: gpio.36:low
+    check_mode_start: true
+
 i2so:
     bck_pin:  gpio.22
     data_pin: gpio.21
@@ -277,10 +281,6 @@ sdcard:
 #     flood_pin: NO_PIN
 #     mist_pin:  NO_PIN
 #     delay_ms:  0
-#
-# probe:
-#     pin: NO_PIN
-#     check_mode_start: true
 #
 # macros:
 #     startup_line0:

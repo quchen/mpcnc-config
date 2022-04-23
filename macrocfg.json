@@ -32,11 +32,11 @@
         "index": 3
     },
     {
-        "name": "",
-        "glyph": "",
-        "filename": "",
-        "target": "",
-        "class": "",
+        "name": "Z probe",
+        "glyph": "arrow-down",
+        "filename": "/macros/pen-probe-z.g",
+        "target": "SD",
+        "class": "btn btn-warning",
         "index": 4
     },
     {
