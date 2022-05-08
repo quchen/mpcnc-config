@@ -203,9 +203,9 @@ axes:
         max_rate_mm_per_min:      3000.000
         acceleration_mm_per_sec2: 300.000
 
-        # Actually 119.x, but let’s not ram the thing into the ground
+        # Actually 125.x, but let’s not ram the thing into the ground
         # should the switch be misaligned a bit
-        max_travel_mm: 115.000
+        max_travel_mm: 125.000
         soft_limits: true
 
         homing:
