@@ -200,7 +200,7 @@ axes:
         # 8 mm/360°
         # ==> 200 * 64 / 8 = 1600 steps/mm
         steps_per_mm:             1600.000
-        max_rate_mm_per_min:      3000.000
+        max_rate_mm_per_min:      2000.000
         acceleration_mm_per_sec2: 300.000
 
         # Actually 125.x, but let’s not ram the thing into the ground
