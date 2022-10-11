@@ -1,5 +1,8 @@
 ; Go all the way up
-G0 G90 Z0
+G53 G0 G90 Z0
+
+; Set this to Z=0 for now
+G10 L20 P0 Z0
 
 ; Probe cycle 1: quickly move towards paper
     G38.2 F1000 Z-120 P0
